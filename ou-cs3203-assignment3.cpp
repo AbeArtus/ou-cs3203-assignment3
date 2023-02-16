@@ -3,6 +3,8 @@
 using namespace std;
  
 int sumList(vector<int> arr);
+int multiplyList(vector<int> arr);
+
 
 
 
@@ -15,4 +17,12 @@ int sumList(vector<int> arr ) {
         sum += arr[i];
     }
     return sum;
+}
+
+int multiplyList(vector<int> arr) {
+    int prod = 1;
+    for (int i = 0; i < arr.size()  ; i++) {
+        prod = arr[i]*prod;
+    }
+    return prod;
 }
