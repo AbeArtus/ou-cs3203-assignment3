@@ -21,8 +21,9 @@ int main() {
     }
     cout << endl;
 
+    // Output Sum
     cout << "Sum of the vector Integers:" << sumList(list) << endl;
-
+    // Output the pruduct
     cout << "Product of the vector Integers:" << multiplyList(list) << endl;
 
     return 0;
